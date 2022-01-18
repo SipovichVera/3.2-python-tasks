@@ -2,6 +2,7 @@ from datetime import datetime
 
 # from engine_factory import Engine
 
+
 class Key:
 
     key = 1000000
@@ -12,6 +13,7 @@ class Key:
     # @classmethod
     def generate_key(cls):
         return cls.key
+
 
 class Car:
 
